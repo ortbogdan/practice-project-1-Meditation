@@ -1,6 +1,13 @@
 .header {
+  position: fixed;
+  width: 100vw;
   height: 130px;
-  background-color: wheat;
+  z-index: 99;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(255, 255, 255);
   &__box {
     display: flex;
     align-items: center;
@@ -30,6 +37,8 @@
   margin-right: 80px;
 }
 .nav__link:hover {
+  padding: 38px 15px 44px 15px;
+
   font-weight: 500;
   font-size: 32px;
   line-height: 1.47;

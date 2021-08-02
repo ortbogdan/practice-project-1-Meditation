@@ -1,4 +1,3 @@
-
 // UTILS
 @import './utils/variables';
 // BASE
@@ -6,5 +5,7 @@
 @import './base/container';
 // COMPONENTS
 @import './components/logo';
+@import './components/page-button';
 // LAYOUT
 @import './layout/header';
+@import './layout/hero';
