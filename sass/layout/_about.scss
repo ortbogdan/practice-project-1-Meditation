@@ -1,0 +1,37 @@
+.about {
+  padding-top: 120px;
+
+  background-color: rgb(202, 224, 221);
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+    padding: 50px 48px 0 48px;
+  }
+  &__icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  &__link {
+    width: 210px;
+    height: 55px;
+    padding: 12px 44px;
+
+    font-weight: normal;
+    font-size: 24px;
+  }
+  &__subtitle {
+    margin-bottom: 20px;
+  }
+  &__discr {
+    text-align: center;
+    font-size: 18px;
+  }
+}

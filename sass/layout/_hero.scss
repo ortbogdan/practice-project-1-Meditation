@@ -1,8 +1,10 @@
 .hero {
   position: relative;
+
   background-color: rgb(26, 131, 112);
   background-image: url('../images/bg-image.png'),
     linear-gradient(180deg, rgba(26, 127, 114, 0) 0%, rgb(202, 224, 221) 100%);
+  background-size: contain;
 
   &__box {
     display: flex;
@@ -25,5 +27,6 @@
   &__button {
     width: 300px;
     height: 75px;
+    margin-bottom: 70px;
   }
 }
