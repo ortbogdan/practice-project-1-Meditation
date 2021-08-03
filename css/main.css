@@ -180,11 +180,17 @@
   border-radius: 20px;
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: left -50px top -31px;
+  box-shadow: 0px 19px 50px rgba(26, 127, 114, 0.15);
+  png-shadow: 5px 5px 5px #222;
+}
+
+.about__item:not(:first-child) {
+  margin-left: 180px;
 }
 
 .about__item:nth-child(1) {
   background-image: url("../../images/bg-item-1.png");
+  filter: drop-shadow 0px 19px 50px rgba(26, 127, 114, 0.15);
 }
 
 .about__icon {
