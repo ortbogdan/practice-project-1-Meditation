@@ -17,13 +17,13 @@
     background-repeat: no-repeat;
 
     &:nth-child(1) {
-      background-image: url(../../images/bg-item-svg-1.svg);
+      background-image: url(../images/bg-item-svg-1.svg);
     }
     &:nth-child(2) {
-      background-image: url('../../images/bg-item-svg-2.svg');
+      background-image: url(../images/bg-item-svg-2.svg);
     }
     &:nth-child(3) {
-      background-image: url('../../images/bg-item-svg-3.svg');
+      background-image: url(../images/bg-item-svg-3.svg);
     }
   }
   &__icon {
