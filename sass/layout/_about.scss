@@ -19,7 +19,6 @@
     background-repeat: no-repeat;
 
     &:nth-child(1) {
-<<<<<<< HEAD
       background-image: url('../../images/bg-item-1.png');
     }
     &:nth-child(2) {
@@ -27,38 +26,29 @@
     }
     &:nth-child(3) {
       background-image: url('../../images/bg-item-3.png');
-=======
-      background-image: url(../images/bg-item-svg-1.svg);
     }
-    &:nth-child(2) {
-      background-image: url(../images/bg-item-svg-2.svg);
+
+    &__icon {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
     }
-    &:nth-child(3) {
-      background-image: url(../images/bg-item-svg-3.svg);
->>>>>>> dd07627975b00bbbe6dc19345e61e268cf8dc873
+    &__link {
+      width: 210px;
+      height: 55px;
+      padding: 12px 44px;
+
+      font-weight: normal;
+      font-size: 24px;
     }
-  }
+    &__subtitle {
+      margin-bottom: 20px;
+    }
+    &__discr {
+      margin-bottom: 60px;
 
-  &__icon {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-  }
-  &__link {
-    width: 210px;
-    height: 55px;
-    padding: 12px 44px;
-
-    font-weight: normal;
-    font-size: 24px;
-  }
-  &__subtitle {
-    margin-bottom: 20px;
-  }
-  &__discr {
-    margin-bottom: 60px;
-
-    text-align: center;
-    font-size: 18px;
+      text-align: center;
+      font-size: 18px;
+    }
   }
 }
