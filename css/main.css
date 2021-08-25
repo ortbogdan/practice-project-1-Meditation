@@ -179,13 +179,14 @@
   flex-direction: column;
   align-items: center;
   padding: 85px 98px 0 98px;
-  width: 520px;
-  height: 606px;
+  width: 420px;
+  height: 535px;
+  filter: drop-shadow(0px 19px 50px rgba(26, 127, 114, 0.15));
   background-repeat: no-repeat;
 }
 
 .about__item:nth-child(1) {
-  background-image: url("../../images/bg-item-svg-1.svg");
+  background-image: url("../../images/bg-item-svg-1.png");
 }
 
 .about__item:nth-child(2) {
