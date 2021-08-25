@@ -1,0 +1,15 @@
+.sounds {
+  padding-top: 110px;
+
+  text-align: center;
+  background-image: url('../../images/sounds-bg.png');
+  background-position: 0 95px;
+  background-repeat: no-repeat;
+  &__title {
+    margin-bottom: 22px;
+  }
+
+  &__text {
+    width: 1105px;
+  }
+}

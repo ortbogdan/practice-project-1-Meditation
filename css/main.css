@@ -1,5 +1,6 @@
 :root {
   --main-color: rgb(26, 127, 114);
+  --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
@@ -42,7 +43,7 @@
 }
 
 .section {
-  width: 1920px;
+  max-width: 1920px;
   padding-top: 200px;
   background-color: #cae0dd;
 }
@@ -84,7 +85,7 @@
 }
 
 .header {
-  width: 1920px;
+  width: 100vw;
   height: 130px;
   z-index: 99;
   display: flex;
@@ -263,21 +264,66 @@
 }
 
 .practice__item {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 792px;
-  height: 305px;
+  width: 717px;
+  height: 233px;
+  padding: 35px 0 0 45px;
+  cursor: pointer;
 }
 
 .practice__item:hover, .practice__item:focus {
   background-image: url(../images/bg-item-practice.png);
+  filter: drop-shadow(0px 8px 50px rgba(26, 127, 114, 0.2));
+}
+
+.practice__item:not(:last-child) {
+  margin-bottom: 50px;
 }
 
 .practice__subtitle {
   font-size: 32px;
   line-height: 47px;
+  font-weight: 500;
   margin-bottom: 10px;
   color: rgba(0, 0, 0, 0.8);
+}
+
+.practice__arrow {
+  width: 102px;
+  height: 24px;
+}
+
+.practice__link {
+  position: absolute;
+  right: 54px;
+  bottom: 23px;
+  visibility: hidden;
+}
+
+.practice__discr {
+  width: 619px;
+}
+
+.practice__item:hover > .practice__link {
+  visibility: visible;
+}
+
+.sounds {
+  padding-top: 110px;
+  text-align: center;
+  background-image: url("../../images/sounds-bg.png");
+  background-position: 0 95px;
+  background-repeat: no-repeat;
+}
+
+.sounds__title {
+  margin-bottom: 22px;
+}
+
+.sounds__text {
+  width: 1105px;
 }
 /*# sourceMappingURL=main.css.map */
