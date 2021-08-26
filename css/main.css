@@ -84,6 +84,26 @@
   cursor: pointer;
 }
 
+.player {
+  position: relative;
+  width: 650px;
+  height: 150px;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #c3e2de 27.22%, #cff1ed 48.89%, #edfbf9 96.77%);
+}
+
+.player::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  background: linear-gradient(35deg, red, green);
+  border-radius: 19px;
+  z-index: -1;
+}
+
 .header {
   width: 100vw;
   height: 130px;
@@ -325,5 +345,9 @@
 
 .sounds__text {
   width: 1105px;
+}
+
+.sounds__content-list {
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */

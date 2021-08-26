@@ -1,0 +1,36 @@
+.player {
+  position: relative;
+
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+
+  width: 650px;
+  height: 150px;
+
+  //   border: 2px solid transparent;
+  //   border-image-source: linear-gradient(
+  //     90deg,
+  //     #1e9787 0%,
+  //     rgba(26, 127, 114, 0.38) 49.39%,
+  //     rgba(26, 127, 114, 0.13) 73.58%,
+  //     rgba(26, 127, 114, 0.04) 91.23%
+  //   );
+
+  border-radius: 15px;
+  background: linear-gradient(90deg, #c3e2de 27.22%, #cff1ed 48.89%, #edfbf9 96.77%);
+
+  //   box-shadow: -26px 4px 79px rgba(168, 207, 202, 0.39);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: linear-gradient(35deg, red, green);
+    border-radius: 19px;
+    z-index: -1;
+  }
+}
